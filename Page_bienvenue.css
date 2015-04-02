@@ -1,0 +1,94 @@
+@font-face {
+
+    font-family: 'Aller_Bd';
+
+    src: url('Aller/Aller_Bd.ttf') format('truetype');
+
+}
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body
+{
+font-family:'Aller_Bd';
+/* background: url("Pictures/BGT.png") no-repeat fixed center top;*/
+background-image: url("Pictures/template.jpg");
+background-position: center top;
+background-repeat:no;
+background-attachment:fixed;
+}
+nav
+{
+position:relative;
+margin-top:40px;
+float: center;
+height:100px;
+padding:20px;
+margin-left:250px;
+margin-right:250px;
+text-align:center;
+background-color:#6BB550;
+font-size:medium;
+}
+
+.form
+{
+text-align:center;
+}
+.inscri{
+margin-top:30px;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  width: 100%;
+  margin-top:60px;
+text-align: center;
+font-size:small;
+display: inline-block;
+}
+
+.fb{
+matgin-right:10px;
+width:6%;
+height:6%;
+}
+.twitter{
+margin-left:10px;
+width:6%;
+height:6%;
+}
+div
+{
+  width: 800px;
+  margin: 20px auto;
+  padding: 50px;
+  border-width: 10px;
+}
+.logo{
+margin-top:0px;
+margin-bottom:30px;
+float: center;
+height:100%;
+width:100%;
+}
+.ok{
+background-image:url('Pictures/ok.png');
+border:none;
+width:60px;
+}
+.carte{
+text-align:center;
+margin-top:20px;
+}
+carteimg{
+width:60%;
+height:60%;
+}
